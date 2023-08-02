@@ -228,5 +228,8 @@ img{
   gap: 5rem;
  }
 }
+.container{
+ width: 100%;
+}
 
 
