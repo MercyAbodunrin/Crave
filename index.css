@@ -24,11 +24,19 @@ a
 
 nav
 {
+    height: 5rem;
     background-color: white;
     padding: 1rem 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+nav img
+{
+    width: 7%;
+    height: 10rem;
+    margin-top: 3rem;
+    object-fit: cover;
 }
 nav ul{
     display: flex;
@@ -90,7 +98,7 @@ nav form select
 /* BANNER */
 
 .banner{
-    height: 100vh;
+    height: 80vh;
     background-color: #F5DBB1;
     padding: 2em 3rem;
     display: flex;
@@ -217,6 +225,23 @@ nav form select
     align-items: center;
     gap: 2rem;
 }
+.sec-two .item-2 .lunch a
+{
+    padding: 0.4rem 1rem;
+    background-color:  #EEEDED;
+    color: #222;
+    border-radius: 10px;
+}
+.sec-two .item-2 .lunch a:hover
+{
+    background-color: #f90;
+    opacity: 0.5;
+}
+.sec-two .item-2 .lunch .active
+{
+    background-color: #f90;
+    color: white;
+}
 .sec-two-wrapper .item-2 .sec-two-images{
     display: flex;
     justify-content: space-between;
@@ -231,18 +256,7 @@ nav form select
     height: 15rem;
     object-fit: cover;
 }
-.sec-two .item-2 .lunch a
-{
-    padding: 0.4rem 1rem;
-    background-color:  #EEEDED;
-    color: #222;
-    border-radius: 10px;
-}
-.sec-two .item-2 .lunch .active
-{
-    background-color: #f90;
-    color: white;
-}
+
 
 
 
