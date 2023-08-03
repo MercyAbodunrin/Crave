@@ -420,7 +420,6 @@ nav form select
     display: flex;
     justify-content: space-evenly;
     gap: 0.9rem;
-
 }
 
 .sec-six h3{
@@ -434,7 +433,7 @@ nav form select
 }
 .sec-six p{
     text-align: center;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     margin-bottom: 2rem;
     color: #6B6B6B;
     font-size: 24px;
@@ -443,7 +442,67 @@ nav form select
 .reviewdiv{
     border-radius: 8px;
     background: #E5E5E3;
+    padding block: 1.5rem;
+    padding-inline: 2rem;
     
+}
+.reviewdiv p{
+    color: #6B6B6B;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;margin-top: 0;
+}
+.reviewdiv div{
+    display: flex;
+    gap: 1rem;
+    align-items: top;
+}
+
+.reviewdiv div img{
+    height: 50px;
+}
+
+.reviewdiv div p{
+    color: #555;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+/* sec 7 */
+.sec-seven{
+    background-color:#F5DBB1;
+    margin-top: 3rem;
+    border: 1px solid red;
+    padding-inline: 3rem;
+
+    
+}
+
+.contactlist{
+    display: flex;
+    border: 1px solid red;
+    margin-top: 4rem;
+    justify-content: space-between;
+
+}
+
+.contactlist ul{
+    gap: 1.5rem;
+}
+
+.contactlist a{
+    color:#00B894;
+}
+
+.sec-seven ul{
+    display: flex;
+    justify-content: space-between;
 }
 
 /* #00B894; */
