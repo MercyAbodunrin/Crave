@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    /* background-color: rgb(250, 247, 247); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.error-div, .congrat-div{
+    /* height: 100vh;
+    background-color: #FFF;
+    border-radius: 16px;
+    padding-inline: 1rem; */
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+    margin: 20px 10px;
+    border-radius: 16px;
+    /* width: 430px;
+    height: 394px; */
+    flex-shrink: 0;
+}
+
+.congrat-img{
+    font-size: 5rem;
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.error-img{
+    color:rgb(228, 16, 16);
+    font-size: 5rem;
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.congrat-p{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 5px;
+    text-align: center;
+    padding-inline: 3rem;
+   
+    
+}
+.error-p{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 5px;
+    text-align: center;
+    
+}
+.second-p{
+    color: #999;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+a{
+    text-decoration: none ;
+    color: white;
+}
+.congrat-btn{
+    color: #FFF;
+    background-color: #F90;
+    font-size: 14px;
+    font-weight: 400;
+    
+    border-style: none;
+    padding-block: 12px;
+    padding-inline: 8rem;
+    border-radius: 8px;
+    margin-bottom: 5rem;
+}
+.error-btn{
+    color: #FFF;
+    background-color: #F90;
+    font-size: 14px;
+    font-weight: 400;
+    border-style: none;
+    padding-block: 12px;
+    padding-inline: 12rem;
+    border-radius: 8px;
+    margin-bottom: 5rem;
+    
+}
+hr{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2.2px solid #222;
+  border-radius: 5px;
+}
