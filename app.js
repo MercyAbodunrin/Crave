@@ -23,8 +23,7 @@ app.set('view engine', 'ejs');
 //custom middlewares(routes)
 app.use("/register", require("./routes/handleNewUserRoute"));
 app.get("/register", async (req, res) => {
-  res.write("Registration Sucessful");
-  res.end();
+  res.sendFile(__dirname + "/landingpage.html");
 })
 
 // User login route
