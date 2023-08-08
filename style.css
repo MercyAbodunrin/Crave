@@ -20,7 +20,7 @@ body{
  
 
 }
-.container{
+.login-container{
  background-color: white;
  width: 40%;
  margin: auto;
@@ -227,9 +227,10 @@ img{
  .checkbox{
   gap: 5rem;
  }
+ .login-container{
+   width: 100%;
+  }
 }
-.container{
- width: 100%;
-}
+
 
 

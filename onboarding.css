@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+ font-family: 'Inter', sans-serif;;
+}
+nav{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-block: auto;
+ background-color: #fdfefe;
+ border: 1px solid #efefef;
+ 
+}
+.logo{
+ width: 4rem;
+ height: 4rem;
+ margin-left: 4.5rem;
+
+}
+img{
+ width: 100%;
+}
+.profile-container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-right: 4.5rem;
+ 
+}
+.profile{
+ width: 2.6rem;
+ height: 2.6rem;
+ border-radius: 50%;
+ overflow: hidden;
+ 
+}
+.profile img{
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ 
+}
+.notification{
+ padding-right: 0.85rem;
+}
+.line-div{
+ height: 0.5rem;
+ width: 88%;
+ background-color: #d9d9d9;
+ margin-inline: auto;
+ margin-top: 2rem;
+ position: relative;
+}
+
+ .ellipse-1{
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  background-color: #f90;
+  text-align: center;
+  padding-top: 3px;
+  font-size: 16px;
+  color: white;
+  position: absolute;
+  top: 12%;
+  left: 32%;
+  
+  }
+  .ellipse-2{
+   width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  background-color: #928F8F;
+  text-align: center;
+  padding-top: 3px;
+  font-size: 16px;
+  color: white;
+  position: absolute;
+  top: 12%;
+  left: 52%;
+  }
+  .ellipse-3{
+   width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  background-color: #928F8F;
+  text-align: center;
+  padding-top: 3px;
+  font-size: 16px;
+  color: white;
+  position: absolute;
+  top: 12%;
+  left: 72%;
+  }
+  .ellipse-4{
+   width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  background-color: #928F8F;
+  text-align: center;
+  padding-top: 3px;
+  font-size: 16px;
+  color: white;
+  position: absolute;
+  top: 12%;
+  left: 93%;
+  }
+  h6{
+   font-size: 40px;
+   font-weight: 500;
+   color: #010101;
+   text-align: center;
+   padding-top: 3.25rem;
+  }
+  p{
+   font-size: 24px;
+   font-weight: 400;
+   text-align: center;
+   color: #706868;
+   padding-top: 1rem;
+  }
+  .food-container1, .food-container2, .food-container3{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   gap: 2rem;
+   margin-bottom: 40px;
+   position: relative;
+   margin-inline: auto;
+   width: 90%;
+  
+  
+  }
+  .food-container1{
+   margin-top: 80px;
+  }
+  .food-line1, .food-line2, .food-line3{
+   border: solid 1px #222;
+   padding: 12px;
+   border-radius: 0.5rem;
+   font-size: 20px;
+  }
+   .diary, .milk, .sesame, .snellfish, .nuts{
+   border: solid 1px #f90; 
+  }
+  .next-btn{
+   padding: 12px;
+   background-color: #f90;
+   border-radius: 8px;
+   color: white;
+   border: none;
+   margin-top: 80px;
+   right: 180px;
+   position: absolute;
+   
+
+  }
+  @media screen and (max-width: 924px) {
+    .ellipse-1, .ellipse-2, .ellipse-3, .ellipse-4{
+     top: 14%;
+     }
+     p{
+      font-size: 16px;
+     }
+     .food-container1, .food-container2, .food-container3{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);}
+     }  
+      @media screen and (max-width: 768px) {
+   .ellipse-1, .ellipse-2, .ellipse-3, .ellipse-4{
+    top: 14%;
+    }
+    p{
+     font-size: 16px;
+    }
+    .food-container1, .food-container2, .food-container3{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     
+     
+     
+}
+
+
+  }
+  @media screen and (max-width: 428px) {
+   .food-container1, .food-container2, .food-container3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+ }
