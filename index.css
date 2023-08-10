@@ -31,11 +31,15 @@ nav
     justify-content: space-between;
     align-items: center;
 }
+nav .left
+{
+    display: flex;
+    justify-content: flex-start;
+    gap: 7rem;
+}
 nav img
 {
-    width: 7%;
-    height: 10rem;
-    margin-top: 3rem;
+    width: 15%;
     object-fit: cover;
 }
 nav ul{
@@ -43,6 +47,7 @@ nav ul{
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    font-size: 1.2rem;
 }
 nav ul .active{
     color: #f90;
@@ -69,6 +74,12 @@ nav ul li a:hover::after
     align-items: center;
     justify-content: center;
     gap: 1rem;
+}
+.sign .white
+{
+    background-color: transparent;
+    color: #f90;
+    border: 2px solid #f90;
 }
 .sign a
 {
@@ -101,23 +112,31 @@ nav form select
     height: 80vh;
     background-color: #F5DBB1;
     padding: 2em 3rem;
+    padding-inline: 5rem;
     display: flex;
     align-items: center;
 }
+.text-content
+{
+    margin-left: 4rem;
+}
 .text-content h1{
-    width: 60%;
-    font-weight: 500;
+    width: 65%;
+    font-weight: 600;
+    line-height: 4rem;
     letter-spacing: 1px;
-    font-size: 3rem;
+    font-size: 3.5rem;
+    text-transform: capitalize;
 }
 .text-content p{
     color: #6B6B6B;
     width: 40%;
     margin-block: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .text-content a{
-    padding: 0.7rem 5rem;
+    padding: 0.9rem 5rem;
     color: white;
     background-color: #f90;
     border: 2px solid transparent;
@@ -130,10 +149,67 @@ nav form select
     background-color: transparent;
     color: #6B6B6B;
 }
+.img-content
+{
+    width: 66%;
+    height: 29rem;
+    border-bottom:  1px solid green;
+    border-left: 1px solid green;
+    border-color: #222222;
+    border-radius: 50%;
+    /* transform: rotate(-38deg); */
+    position: relative;
+    margin-right: 5rem;
+    
+        
+}
+.img-content img
+{
+    border-radius: 50%;
+    object-fit: cover;
 
-.img-content img{
-    width: 100%;
-    clip-path: circle();
+}
+.img-content .middle
+{
+    width: 65%;
+    height: 65%;
+    position: absolute;
+    bottom: -15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.img-content .ellipse
+{
+    width: 18%;
+    height: 18%;
+}
+.img-content .ellipse-1
+{
+    position: absolute;
+    top: 30%;
+    left: 0;
+    transform: translate(-30%, 0);
+}
+.img-content .ellipse-2
+{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    transform: translate(-50%,0);
+}
+.img-content .ellipse-3
+{
+    position: absolute;
+    bottom: -8%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.img-content .ellipse-4
+{
+    position: absolute;
+    bottom: 12%;
+    right: 0%;
+    transform: translate(-5%,0);
 }
 
 
@@ -145,15 +221,17 @@ nav form select
 .sec-one
 {
     margin-top: 2.5rem;
+    padding-inline: 7rem;
 }
 .sec-one > p
 {
     color: #6B6B6B;
     text-align: center;
+    font-size: 1.2rem;
 }
 .sec-one > h2
 {
-    font-weight: 400;
+    font-weight: 500;
     color: #f90;
     margin-block: 0.8rem;
     text-align: center;padding: 1rem 3rem;
@@ -165,17 +243,17 @@ nav form select
     text-align: center;
 }
 .sec-one .wrapper-sec-one .item img{
-    width: 40%;
+    width: 45%;
     clip-path: circle();
 }
 .sec-one .wrapper-sec-one .item .title{
-    font-weight: 400;
+    font-weight: 500;
     margin-block: 1rem;
     color: #555;
 }
 .sec-one .wrapper-sec-one .item p{
     color: #6B6B6B;
-    font-size: 1rem;
+    font-size: 1.2rem;
     width: 80%;
     margin-inline: auto;
 }
@@ -185,7 +263,7 @@ nav form select
 
 /* SECTION TWO */
 .sec-two{
-    padding: 5rem 3rem 0rem;
+    padding: 5rem 6rem;
 }
 
 .sec-two-wrapper{
@@ -195,13 +273,13 @@ nav form select
     gap: 3rem;
 }
 .sec-two-wrapper .item-1{
-    width: 48%;
+    width: 30%;
 }
 .sec-two-wrapper .item-1 h1
 {
     color: #555555;
-    font-weight: 700;
-    font-size: 2.1rem;
+    font-weight: 600;
+    font-size: 2rem;
 }
 .sec-two-wrapper .item-1 p
 {
@@ -210,6 +288,7 @@ nav form select
 }
 
 .sec-two-wrapper .item-2{
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -252,8 +331,8 @@ nav form select
     width: 100%;
 }
 .sec-two-wrapper .item-2 .sec-two-images div img{
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 20rem;
     object-fit: cover;
 }
 
@@ -264,7 +343,7 @@ nav form select
 
 .sec-three
 {
-    padding: 5rem 3rem 0rem;
+    padding: 5rem 6rem;
 }
 .sec-three-wrapper
 {
@@ -275,8 +354,8 @@ nav form select
 }
 .sec-three-wrapper .item1
 {
-    width: 100%;
-    height: 20rem;
+    width: 60%;
+    height: 30rem;
 }
 .sec-three-wrapper .item1 img
 {
@@ -286,7 +365,7 @@ nav form select
 }
 .sec-three-wrapper .item2
 {
-    width: 97%;
+    width: 40%;
     text-align: end;
 }
 .sec-three-wrapper .item2 h1

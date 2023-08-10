@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+
+     <!-- =============== FAVICON ICON ================ -->
+   <link rel="shortcut icon" href="./imgs-julia/logo.png" type="image/x-icon">
+
+   <title>Crave</title>
+
+   <!-- =============== BOOTSTRAP CSS STYLING ================ -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+   <!-- =============== CSS STYLE SHEET ================ -->
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+
+    <!-- ********************* NAVIGATION BAR *********************** -->
+
+    <div class="nav">
+        <div class="nav-container">
+            <img id="logo" src="./imgs-julia/logo.png" alt="logo">
+
+            <div class="search-bar">
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" name="search" placeholder="Search for recipes or ingredients" id="search">
+                </div>
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div id="user-img">
+                <span><i class="bi bi-bell"></i></span>
+                <img src="./imgs-julia/dashboard-user-img.jpeg" alt="user image">
+            </div>
+        </div>
+    </div>
+
+
+    
+
+    <!-- ********************* SIDE - BAR *********************** -->
+
+    <div class="side-bar">
+        <div class="side-bar-container">
+            <div class="navigation">
+                <div class="flex-items dashboard active">
+                    <i class="bi bi-grid-1x2-fill"></i>
+                    <p>Dashboard</p>
+                </div>
+                <div class="flex-items Recipes">
+                    <i class="bi bi-card-list"></i>
+                    <p>Recipes</p>
+                </div>
+                <div class="flex-items chat">
+                    <i class="bi bi-robot"></i>
+                    <p>Chat with AI</p>
+                </div>
+                <div class="flex-items favourite">
+                    <i class="bi bi-heart"></i>
+                    <p>Favourite</p>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="flex-items help">
+                    <i class="bi bi-question-circle"></i>
+                    <p>Help & support</p>
+                </div>
+                <div class="flex-items settings">
+                    <i class="bi bi-gear"></i>
+                    <p>Settings</p>
+                </div>
+                <div class="flex-items Logout">
+                    <i class="bi bi-box-arrow-right"></i>
+                    <p>Log out</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- ********************* MAIN *********************** -->
+
+    <div class="main">
+
+        <!-- SECTION ONE -->
+        <section class="sec-one">
+            <P>Hello Mushinat,</P>
+            <h2>Discover The Creative In You</h2>
+
+            <div class="item">
+                <div class="text-content">
+                    <h3>Ready to Expand your cooking skills</h3>
+                    <p>Interdum ac est venenatis facilisis tristique enim tempus arcu turpis. Faucibus dolor elit senectus massa et </p>
+                </div>
+
+                <img src="./imgs-julia/dashboard-sec-one.jpeg" alt="jollof-rice, fried rice and pasta buffet">
+            </div>
+        </section>
+
+
+
+        <!-- SECTION TWO -->
+
+        <section class="sec-two">
+            <div class="top">
+                <p class="based-on">Based on the type of  food you like</p>
+                <p class="view-all"><a href="#">View all</a></p>
+            </div>
+
+            <div class="grid-container">
+                <div class="grid-item one active">
+                    <img src="./imgs-julia/dashboard-sec-two-img-one.jpeg" alt="appetizers and snacks">
+                    <h3>Appetizers & Snacks</h3>
+                </div>
+
+                <div class="grid-item two">
+                    <img src="./imgs-julia/dashboard-sec-two-img-two.jpeg" alt="baking recipes">
+                    <h3>Baking Recipes</h3>
+                </div>
+
+                <div class="grid-item three">
+                    <img src="./imgs-julia/dashboard-sec-two-img-three.jpeg" alt="holiday recipes">
+                    <h3>Holiday Recipes</h3>
+                </div>
+
+                <div class="grid-item four">
+                    <img src="./imgs-julia/dashboard-sec-two-img-four.jpeg" alt="barbecue and grilling">
+                    <h3>Barbecue & Grilling</h3>
+                </div>
+
+                <div class="grid-item five">
+                    <img src="./imgs-julia/dashboard-sec-two-img-five.jpeg" alt="chicken recipes">
+                    <h3>Chicken Recipes</h3>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SECTION THREE -->
+
+        <section class="sec-three">
+
+            <div class="grid-items one">
+                <div class="top">
+                    <img src="./imgs-julia/spicy-ramen-noodles.jpeg" alt="noodles in a plate cooked with pepper and garnished with vegetables">
+
+                    <div class="side-text">
+                        <h3>Spicy Ramen Noodles</h3>
+                        <p>231cal</p>
+                    </div>
+                </div>
+
+                <div class="middle">
+                    <h3>Ingredients</h3>
+
+                    <div class="gridd">
+                        <div class="gridd-items">
+                            <img src="./imgs-julia/noodles.jpeg" alt="raw noodles">
+                            <p>Noodles</p>
+                        </div>
+                        <div class="gridd-items">
+                            <img src="./imgs-julia/chicken.jpeg" alt="raw chicken">
+                            <p>Chicken</p>
+                        </div>
+                        <div class="gridd-items">
+                            <img src="./imgs-julia/vegetables.jpeg" alt="vegtables">
+                            <p>Vegetables</p>
+                        </div>
+                        <div class="gridd-items">
+                            <img src="./imgs-julia/noodles2.jpeg" alt="cooked noodles">
+                            <p>Noodles</p>
+                        </div>
+                        <div class="gridd-items">
+                            <img src="./imgs-julia/chicken2.jpeg" alt="raw chicken">
+                            <p>Chicken</p>
+                        </div>
+                        <div class="gridd-items">
+                            <p>+ 4 More</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="end">
+                    <div class="watch-tutorial">
+                        <a href="#">
+                            <i class="bi bi-grid-1x2-fill"></i>
+                            <p>Watch tutorial</p>
+                        </a>
+                    </div>
+
+                    <div class="fifteen-mins">
+                        <i class="bi bi-clock-fill"></i>
+                        <p>15 mins</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="grid-items two">
+                <div class="top">
+                    <img src="./imgs-julia/smoothies.jpeg" alt="smoothies">
+
+                    <div class="side-text">
+                        <h3>Spicy Smoothies</h3>
+                        <p>159cal</p>
+                    </div>
+                </div>
+
+                <div class="middle">
+                    <h3>Ingredients</h3>
+
+                    <div class="gridd">
+                        <div class="gridd-items">
+                            <img src="./imgs-julia/banana.jpeg" alt="banana">
+                            <p>Banana</p>
+                        </div>
+                        <div class="gridd-items">
+                            <img src="./imgs-julia/kiwi.jpeg" alt="kiwi">
+                            <p>Kiwi</p>
+                        </div>
+                        <div class="gridd-items">
+                            <img src="./imgs-julia/milk.jpeg" alt="milk">
+                            <p>Milk</p>
+                        </div>
+                        <div class="gridd-items">
+                            <img src="./imgs-julia/pineapple.jpeg" alt="pineapple">
+                            <p>Pineapple</p>
+                        </div>
+                        <div class="gridd-items">
+                            <img src="./imgs-julia/apple.jpeg" alt="apple">
+                            <p>Apple</p>
+                        </div>
+                        <div class="gridd-items">
+                            <p>+ 1 More</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="end">
+                    <div class="watch-tutorial">
+                        <a href="#">
+                            <i class="bi bi-grid-1x2-fill"></i>
+                            <p>Watch tutorial</p>
+                        </a>
+                    </div>
+
+                    <div class="fifteen-mins">
+                        <i class="bi bi-clock-fill"></i>
+                        <p>15 mins</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="grid-items three">
+                <div class="top">
+                    <img src="./imgs-julia/sponge-cake.jpeg" alt="sponge cake">
+
+                    <div class="side-text">
+                        <h3>Sponge cake</h3>
+                        <p>231cal</p>
+                    </div>
+                </div>
+
+                <div class="middle">
+                    <h3>Ingredients</h3>
+
+                    <div class="gridd">
+                        <div class="gridd-items">
+                            <img src="./imgs-julia/flour.jpeg" alt="flour">
+                            <p>Flour</p>
+                        </div>
+                        <div class="gridd-items">
+                            <img src="./imgs-julia/eggs.jpeg" alt="eggs">
+                            <p>Eggs</p>
+                        </div>
+                        <div class="gridd-items">
+                            <img src="./imgs-julia/butter.jpeg" alt="butter">
+                            <p>Butter</p>
+                        </div>
+                        <div class="gridd-items">
+                            <img src="./imgs-julia/baking-powder.jpeg" alt="baking powder">
+                            <p>Baking powder</p>
+                        </div>
+                        <div class="gridd-items">
+                            <img src="./imgs-julia/sugar.jpeg" alt="sugar">
+                            <p>Sugar</p>
+                        </div>
+                        <div class="gridd-items">
+                            <p>+ 4 More</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="end">
+                    <div class="watch-tutorial">
+                        <a href="#">
+                            <i class="bi bi-grid-1x2-fill"></i>
+                            <p>Watch tutorial</p>
+                        </a>
+                    </div>
+
+                    <div class="fifteen-mins">
+                        <i class="bi bi-clock-fill"></i>
+                        <p>15 mins</p>
+                    </div>
+                </div>
+            </div>
+
+
+            
+        </section>
+
+
+    </div>
+
+
+    <!-- =============== BOOTSTRAP JAVASCRIPT ================ -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
