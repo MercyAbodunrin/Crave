@@ -353,8 +353,12 @@ nav form select
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 48px;
+    line-height: 24px;
 }
+.recipecard:last-child::after{
+    display: none;
+}
+
 .recipecard img{
     border-radius: 8px;
 
@@ -478,22 +482,33 @@ nav form select
 .sec-seven{
     background-color:#F5DBB1;
     margin-top: 3rem;
-    border: 1px solid red;
     padding-inline: 3rem;
+    padding-top: 1.5rem;
 
     
 }
 
 .contactlist{
     display: flex;
-    border: 1px solid red;
     margin-top: 4rem;
     justify-content: space-between;
+    align-items: center;
 
 }
 
 .contactlist ul{
     gap: 1.5rem;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #00B894;
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
 }
 
 .contactlist a{
@@ -504,5 +519,30 @@ nav form select
     display: flex;
     justify-content: space-between;
 }
+.form{
+    display: flex;
+    align-items: center;
+}
+.form-group{
+    border: 1px solid #BABABA;
+    padding: 0.5rem 1rem;
+    flex: 1;
+    border-radius: 8px;
+}
+.form-group input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+}
 
+.form button{
+    background-color: #00B894;
+    padding-block: 0.7rem;
+    padding-inline: 1rem;
+    border-radius: 8px;
+    border:none;
+
+
+}
 /* #00B894; */
