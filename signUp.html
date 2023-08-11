@@ -10,43 +10,64 @@
       <link rel="stylesheet" href="signUp.css"> 
   </head>
   <body>
-    <h1>Sign up</h1>
-    <h3>Create an account now to become a creative</h3>
-    <div class="container">
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Full name</label>
-            <input type="fullName" class="form-control" name="fullName" id="exampleFormControlInput1 fullName" placeholder="john Doe">
-          </div> 
-    
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Phone number</label>
-            <input type="Phone number" class="form-control" name="phoneNumber" id="exampleFormControlInput1 phoneNumber" placeholder="+234-654-8975">
-          </div>
-
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email</label>
-            <input type="email" class="form-control" name="email" id="exampleFormControlInput1 email" placeholder="JohnDoe@crave.com">
-          </div>
-
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Password</label>
-            <input type="password" class="form-control" name="password" id="exampleFormControlInput1 password" placeholder="********">
-          </div>
-          <div class="col-12">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-              <label class="form-check-label" for="invalidCheck">
-                Yes, I understand and agreed to CRAVE <span> terms & condition</span> and <span>privacy policy, including the user Agreement</span> 
-              </label>
+    <div class="desktop-background">
+      <div class="container">
+        <h2>Sign up</h2>
+        <p>Create an account now to become a creative</p>
+  
+        <form id="signup-form">
+          <div class="form-group">
+            <label for="name">Full name</label>
+            <div class="input-with-icon">
+             <i class="fa-solid fa-envelope"></i>
+              <input type="text" id="name" name="name" placeholder="JohnDoe" required>
             </div>
-          </div>           
-
-<div class="d-grid gap-2 col-6 mx-auto">
-    <button class="btn btn-primary" type="button"><span>Sign up</span> </button>
-  </div>  
+          </div>
+  
+          <div class="form-group">
+            <label for="phoneNumber">Phone number</label>
+            <div class="input-with-icon">
+              <input type="number" id="phoneNumber" name="phoneNumber" placeholder="+234 1234567890" required>
             </div>
-          </form>
-      </div>  
+          </div>
+  
+          <form id="login-form">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <div class="input-with-icon">
+               <i class="fa-solid fa-envelope"></i>
+                <input type="email" id="email" name="email" placeholder="JohnDoe@crave.com" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <div class="input-with-icon">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="password" name="password" placeholder="********" required>
+                <span class="password-toggle">
+                  <i class="fas fa-eye"></i>
+                </span>
+              </div>
+            </div>
+
+            <div class="col-12" style="margin-top: 2rem;">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  Yes, I understand and agreed to CRAVE <span> terms & condition</span> and <span>privacy policy, including the user Agreement</span> 
+                </label>
+              </div>
+            </div>           
+  
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <a href="">
+                <button type="submit">Sign up</button>
+              </a>
+            </div>  
+            
+        
+      </div>
+    </div>
   </body>
 </html>
 

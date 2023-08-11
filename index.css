@@ -26,17 +26,18 @@ nav
 {
     height: 5rem;
     background-color: white;
-    padding: 1rem 5rem;
+    padding: 2rem 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 nav img
 {
-    width: 7%;
-    height: 10rem;
+    width: 4%;
+    height: 8rem;
     margin-top: 3rem;
     object-fit: cover;
+    margin-bottom: 3rem;
 }
 nav ul{
     display: flex;
@@ -98,9 +99,9 @@ nav form select
 /* BANNER */
 
 .banner{
-    height: 80vh;
+    height: 93vh;
     background-color: #F5DBB1;
-    padding: 2em 3rem;
+    padding: 4rem 3rem;
     display: flex;
     align-items: center;
 }
@@ -136,6 +137,74 @@ nav form select
     clip-path: circle();
 }
 
+
+.img-content
+{
+    width: 66%;
+    height: 29rem;
+    border-bottom: 1px solid green;
+    border-left: 1px solid green;
+    border-color: #222222;
+    border-radius: 50%;
+  /* transform: rotate(-38deg); */
+    position: relative;
+    margin-right: 5rem;
+}
+
+.img-content img
+{
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.img-content .middle
+{
+    width: 65%;
+    height: 65%;
+    position: absolute;
+    bottom: -15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-content .ellipse
+{
+    width: 18%;
+    height: 18%;
+}
+
+.img-content .ellipse-1
+{
+    position: absolute;
+    top: 30%;
+    left: 0;
+    transform: translate(-30%, 0);
+}
+
+.img-content .ellipse-2
+{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    transform: translate(-50%,0);
+}
+
+.img-content .ellipse-3
+{
+    position: absolute;
+    bottom: -8%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.img-content .ellipse-4
+{
+    position: absolute;
+    bottom: 12%;
+    right: 0%;
+    transform: translate(-5%,0);
+}
 
 
 
@@ -446,8 +515,7 @@ nav form select
 .reviewdiv{
     border-radius: 8px;
     background: #E5E5E3;
-    padding block: 1.5rem;
-    padding-inline: 2rem;
+    padding: 1.5rem;
     
 }
 .reviewdiv p{
@@ -457,7 +525,8 @@ nav form select
     font-style: normal;
     font-weight: 400;
     line-height: 36px;
-    text-align: left;margin-top: 0;
+    text-align: left;
+    margin-top: 0;
 }
 .reviewdiv div{
     display: flex;
@@ -493,7 +562,6 @@ nav form select
     margin-top: 4rem;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .contactlist ul{
@@ -542,7 +610,4 @@ nav form select
     padding-inline: 1rem;
     border-radius: 8px;
     border:none;
-
-
 }
-/* #00B894; */

@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
 * {
+  font-family: Inter;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 section {
@@ -24,7 +25,7 @@ main {
 
 h2 {
   text-transform: capitalize;
-  color: #222;
+  color:#FF9900;
   font-size: 1.25rem;
   font-weight: 500;
   line-height: 1.75rem;
@@ -46,6 +47,7 @@ h2 {
   display: flex;
   gap: 1.5rem;
   justify-content: center;
+  margin-top: 10px;
 }
 .box-code div {
   border: 1px solid #999;
